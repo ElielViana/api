@@ -12,7 +12,6 @@ abstract class _UserStore with Store{
   @action
   void getAllUsers(List<UserModel> listUsers){
       users = listUsers.asObservable();
-      print("chegou no store");
   }
 
 }

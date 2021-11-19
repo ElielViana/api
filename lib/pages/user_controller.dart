@@ -12,8 +12,5 @@ class UserController{
   getAllUser()async{
     var users = await repository.getAllUser();
     store.getAllUsers(users);
-    print("chegou controller");
-    print(users);
-    // print(store.users);
   }
 }

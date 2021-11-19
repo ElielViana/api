@@ -15,7 +15,7 @@ class UserRepository{
       UserModel user = UserModel.fromJson(element);
       users.add(user);
     });
-    print("chegou repository");
+    
     return users;
   }
 }
